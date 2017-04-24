@@ -1,0 +1,21 @@
+#program-1
+var1 = "Python"  
+def func1():  
+    var1 = "PHP"  
+    print("In side func1() var1 = ",var1)    
+def func2():  
+    print("In side func2() var1 = ",var1)  
+func1()  
+func2()  
+
+#progarm-2
+amt=10
+def func1():
+   amt=20
+   print(amt)
+def func2(a):
+   amt=amt*a
+   print(amt)
+func1()
+func2(10)
+func2(3)
